@@ -1,0 +1,14 @@
+challenge:
+  author: Bowen
+  category: Intro to Kali Linux
+  connection_info: nc challs.ctf.nullsecsig.com 6943
+  description: 'Connect to the instance to get the flag: `nc challs.ctf.nullsecsig.com
+    6943`'
+  difficulty: Easy
+  name: how cat
+  type: standard
+  value: 100
+service:
+  name: how-cat
+  path: service
+  port: 12100

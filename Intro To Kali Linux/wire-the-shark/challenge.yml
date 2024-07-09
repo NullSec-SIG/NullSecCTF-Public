@@ -1,0 +1,15 @@
+challenge:
+  name: "wire-the-shark"
+  author: "Bowen"
+  category: Intro to Kali Linux
+  difficulty: Easy
+  description: I love sharking the wire. Can you help me find the flag?
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{sn1ff_sn1ff_y0ur_pa$$w0rds_on_w1x}
+
+  files:
+    - dist/wire-the-shark.pcapng

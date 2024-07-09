@@ -1,0 +1,15 @@
+challenge:
+  name: "pachinko"
+  author: "Jun Jie"
+  category: Intro to Kali Linux
+  difficulty: Medium
+  description: Come one come all! the pachinko machine is open! Spin and claim your prize... That is if you can find it ;)
+  value: 200
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{w1nn3rw1nn3rch1ck3nd1nn3r}
+
+  files:
+    - dist/pachinko.zip

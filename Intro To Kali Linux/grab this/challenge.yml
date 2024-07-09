@@ -1,0 +1,15 @@
+challenge:
+  name: "grab this"
+  author: "Kairos"
+  category: Intro to Kali Linux
+  difficulty: Easy
+  description: Grep is a really useful tool for searching for a specific string in a file. Maybe you could show me your skills?
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{w0w!wh47_sk1llz}
+
+  files:
+    - dist/text.txt

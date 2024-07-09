@@ -1,0 +1,11 @@
+challenge:
+  name: "Incorrect results"
+  author: "Galen"
+  category: Intro to Kali Linux
+  difficulty: Easy
+  description: It's really simple to set up a http web server with Python. Set up a simple http web server, and verify it is up an running by performing an nmap scan against your localhost. Where can you report incorrect scan results? 
+  value: 100
+  type: standard
+
+  flags:
+    - NULL{https://nmap.org/submit/}

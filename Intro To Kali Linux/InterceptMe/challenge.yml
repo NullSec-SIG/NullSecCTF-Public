@@ -1,0 +1,12 @@
+challenge:
+  name: "InterceptMe"
+  author: "Kairos"
+  category: Intro to Kali Linux
+  difficulty: Easy
+  description: Intercept my traffic and maybe I'll give you something in return. https://intercept-me.vercel.app/
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{w0W_yU_kn0W_H0w_2_iNT3RCep7!!}

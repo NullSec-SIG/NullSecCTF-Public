@@ -1,0 +1,18 @@
+challenge:
+  name: "what cat"
+  author: "Syn Kit"
+  category: Intro to Kali Linux
+  difficulty: Easy
+  description: "Connect to the instance to get the flag: `nc challs.ctf.nullsecsig.com 6942`"
+  value: 100
+  type: standard
+
+  connection_info: nc challs.ctf.nullsecsig.com 6942
+
+  flags:
+      - NULL{1_L0V3_C475}
+
+service:
+  name: "what-cat"
+  path: service
+  port: 12100

@@ -1,0 +1,1 @@
+echo "The bluetooth device has been connected successfully."
