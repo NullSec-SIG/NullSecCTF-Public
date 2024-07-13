@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}dontcrawlme{% endblock %}
+
+{% block content %}
+<style>
+   
+    .outer_div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            max-width: 50%;
+            background-color: rgb(255, 255, 255);  
+            padding: 3%;
+        }
+</style>
+<div class="outer_div">
+   
+   
+    <form method=post>
+        Input secret: <input placeholder="Enter the secret" name="secret" ><br>
+        <input type=submit name=submit>
+    </form>
+    {% if result %}
+        <p>{{ result }}</p>
+    {% endif %}
+</div>
+
+{% endblock %}

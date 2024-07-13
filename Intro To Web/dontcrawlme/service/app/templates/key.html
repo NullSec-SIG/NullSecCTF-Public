@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}I think you got it{% endblock %}
+
+{% block content %}
+<style>
+   
+    .outer_div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            max-width: 50%;
+            background-color: rgb(255, 255, 255);  
+            padding: 3%;
+        }
+</style>
+
+<div style="position: relative; text-align: center;">
+   
+    <img src="{{ url_for('static', filename='key.png') }}" alt="Nothing" height="400px" width="500px" style="position: relative; z-index: 1;">
+</div>
+
+<!-- secret: Chingmilichong -->
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}proxy{% endblock %}
+
+{% block content %}
+<style>
+   
+    .outer_div {
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            max-width: 50%;
+            background-color: rgb(255, 255, 255);  
+            padding: 3%;
+        }
+</style>
+<div class="outer_div">
+   
+   
+    <h2>World Wide Web!</h2>
+    <p>Dont get it confused with the 'Internet', <!-- NULL{1_10v3_bur9_s00t} --> 
+        WWW is just a global collection of documents and other resources, 
+        linked by hyperlinks and URIs. <br>
+        
+    </p>
+
+</div>
+<script>
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    }, false);
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+        if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+            e.preventDefault();
+        }
+        if (e.ctrlKey && e.key === 'u') {
+            e.preventDefault();
+        }
+    }, false);
+</script>
+
+
+{% endblock %}

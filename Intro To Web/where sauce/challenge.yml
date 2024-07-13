@@ -1,0 +1,15 @@
+challenge:
+  author: Kairos
+  category: Intro to Web
+  description: "how to see the source code of a website? \n\nMirror 1: https://wheresauce-nullsecctf.vercel.app/\n\
+    Mirror 2: http://challs.ctf.nullsecsig.com:6949/\n"
+  difficulty: Easy
+  flags:
+  - NULL{1nsp3c70r!}
+  name: where sauce
+  type: standard
+  value: 100
+service:
+  name: where-sauce
+  path: service
+  port: 80

@@ -1,0 +1,20 @@
+challenge:
+  author: Dion
+  category: Intro to Web
+  description: 'Are oranges 5p3c14l_ oranges because oranges orange or are cr4f73d_0r4n635
+    orange because it is oranges
+
+
+    http://challs.ctf.nullsecsig.com:6945/'
+  difficulty: Easy
+  files:
+  - dist/app.py
+  flags:
+  - NULL{0rang3s_ar3_yummy}
+  name: Oranges
+  type: standard
+  value: 100
+service:
+  name: oranges
+  path: service
+  port: 5000

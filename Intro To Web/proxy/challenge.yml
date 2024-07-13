@@ -1,0 +1,17 @@
+challenge:
+  author: Hazim
+  category: Intro to Web
+  description: 'Intercept this page, and see what you get
+
+    Mirror 1: https://proxy-nullsecctf.vercel.app/
+    Mirror 2: http://challs.ctf.nullsecsig.com:6947/'
+  difficulty: Easy
+  flags:
+  - NULL{1_10v3_bur9_s00t}
+  name: proxy
+  type: standard
+  value: 100
+service:
+  name: proxy
+  path: service/app
+  port: 2032

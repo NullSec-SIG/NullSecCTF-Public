@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block title %}sussy baka{% endblock %}
+
+{% block content %}
+<style>
+    body {
+        background-color: #ffccf9;
+        font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+        color: #ff66b2;
+        text-align: center;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 5px dashed #ff66b2;
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        position: relative ;
+        top: 50%;
+        transform: translateY(50%);
+    }
+
+    .title {
+        font-size: 3em;
+        margin-bottom: 20px;
+        color: #ff66b2;
+        text-shadow: 2px 2px 0px #ffffff, 4px 4px 0px #ff66b2;
+        animation: bounce 1.5s infinite;
+    }
+
+    .image-container {
+        margin-top: 20px;
+    }
+
+    .image-container img {
+        border: 5px solid #ff66b2;
+        border-radius: 15px ;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        /*key: secret*/
+        max-width: 100%;
+        height: auto;
+        animation: rotate 5s linear infinite;
+    }
+
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(-10px);
+        }
+        50% {
+            transform: translateY(10px);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="title">
+        <h1>wingstoppppppppppppppp</h1>
+    </div>
+    <div class="image-container">
+        <img src="{{ url_for('static', filename='base.jpg') }}">
+    </div>
+</div>
+{% endblock %}

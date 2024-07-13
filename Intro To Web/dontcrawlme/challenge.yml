@@ -1,0 +1,18 @@
+challenge:
+  author: Hazim
+  category: Intro to Web
+  description: 'I wonder what''s the file called on a website that tell web crawlers
+    which pages of the site should not be crawled
+
+    Mirror 1: https://dontcrawlme-nullsecctf.vercel.app/
+    Mirror 2: http://challs.ctf.nullsecsig.com:6948/ '
+  difficulty: Easy
+  flags:
+  - NULL{1_ju5t_13@rn1_r0b0t5}
+  name: dontcrawlme
+  type: standard
+  value: 100
+service:
+  name: dontcrawlme
+  path: service/app
+  port: 2022

@@ -1,0 +1,16 @@
+challenge:
+  author: Tevel
+  category: Intro to Web
+  description: 'those who drink the tea gets /admin, those who do not get /nimda
+
+    http://challs.ctf.nullsecsig.com:6946/'
+  difficulty: Medium
+  flags:
+  - NULL{jw7_5u55y_b4k4}
+  name: John Wants Tea
+  type: standard
+  value: 200
+service:
+  name: john-wants-tea
+  path: service/app
+  port: 5000

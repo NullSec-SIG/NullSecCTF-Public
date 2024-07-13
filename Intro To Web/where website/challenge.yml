@@ -1,0 +1,15 @@
+challenge:
+  name: "where website"
+  author: "Kairos"
+  category: Intro to Web
+  difficulty: Easy
+  description: 100
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{1ts_4_fr33_w0r1d!}
+
+  files:
+    - dist/index.html
