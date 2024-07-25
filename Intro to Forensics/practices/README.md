@@ -1,6 +1,6 @@
 # README !!!
 
-Hi NullSec members! We're excited to meet you all later this evening. To ensure that our session goes smoothly, we'd like you to install some practice file and a software that we'll be using during the session. 
+Hi NullSec members! We're excited to meet you all later this evening. To ensure that our session goes smoothly, we'd like you to install some practice files and a software that we'll be using during the session. 
 
 ## Instructions
 
