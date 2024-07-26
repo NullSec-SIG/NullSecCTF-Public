@@ -1,0 +1,15 @@
+challenge:
+  name: "chameleon"
+  author: "Kairos"
+  category: Intro to Kali Forensics
+  difficulty: easy
+  description: "And for the next trick, he camoflages!"
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{h0w_2_s33_d15}
+
+  files:
+    - dist/chameleon.png

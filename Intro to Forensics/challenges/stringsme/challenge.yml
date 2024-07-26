@@ -1,0 +1,16 @@
+challenge:
+  name: "stringsme"
+  author: "Kairos"
+  category: Intro to Forensics
+  difficulty: easy
+  description: "what is the `strings` command again?"
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{s7r1ng5_m4h_d4wg}
+
+  files:
+    - dist/image.png
+  

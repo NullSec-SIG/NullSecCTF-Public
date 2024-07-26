@@ -1,0 +1,15 @@
+challenge:
+  name: "Sniff Test"
+  author: "Bowen"
+  category: Intro to Forensics
+  difficulty: Easy
+  description: "I love sniffing. Do you love sniffing?"
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{1mag3_0v3r_http5}
+
+  files:
+    - dist/sniff-test.pcapng

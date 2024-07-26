@@ -1,0 +1,15 @@
+challenge:
+  name: hearing things
+  author: "Kairos"
+  category: Intro to Forensics
+  difficulty: Easy
+  description: "Seeing is believing, but what about hearing?"
+  value: 100
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{h34r1ng_7h1ng5}
+
+  files:
+    - dist/chall.wav

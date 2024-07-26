@@ -1,0 +1,15 @@
+challenge:
+  name: "noises"
+  author: "Kairos"
+  category: Intro to Forensics
+  difficulty: Medium
+  description: "sometimes even hearing things isn't enough. theres more than meets the ear and the eye!\n NOTE: Wrap the flag in `NULL{}`. All caps!"
+  value: 200
+  # Easy: 100, Medium: 200, Hard: 300
+  type: standard
+
+  flags:
+    - NULL{D0TSND4SH35}
+
+  files:
+    - dist/noises.wav
